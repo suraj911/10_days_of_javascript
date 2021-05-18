@@ -1,0 +1,7 @@
+function factorial(n){
+    var s = 1;
+    for(let y=1;y<=n;y++){
+        s = s * y;
+    }
+    return s;
+}
