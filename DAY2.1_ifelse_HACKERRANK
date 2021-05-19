@@ -1,0 +1,22 @@
+function getGrade(s) {
+    let g;
+    if(s>25 && s<=30){
+        g = 'A';
+    }
+    if(s>20 && s<=25){
+        g = 'B';
+    }
+    if(s>15 && s<=20){
+        g = 'C';
+    }
+    if(s>10 && s<=15){
+        g = 'D';
+    }
+    if(s>5 && s<=10){
+        g = 'E';
+    }
+    if(s>0 && s<=5){
+        g = 'F';
+    }
+    return g;
+}
